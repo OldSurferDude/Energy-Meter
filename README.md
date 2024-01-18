@@ -20,7 +20,7 @@ Safety note on current transformers.  If there is no burden resistor, the resist
 
 **IF YOU BUILD AND INSTALL THIS DEVICE YOU ARE RESPONSIBLE FOR SAFETY**
 
-Read more [here](https://docs.google.com/document/d/1Qb_S8iBt4_zRzbYbtjIBpqug_ZvvkmUpOjDa-rYTmhk/edit?usp=sharing)
+#Read more [here](https://docs.google.com/document/d/1Qb_S8iBt4_zRzbYbtjIBpqug_ZvvkmUpOjDa-rYTmhk/edit?usp=sharing)
 
 # Note:  This is a work in progress.
 The .ino version 14 only reports power.  Energy, Vrms, Irms, VA and power factor will be easy to calculate
