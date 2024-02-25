@@ -4,6 +4,9 @@ Energy meters cost a lot of money. The goal for this one is under US$30.  In ord
 
 As currently (17 Jan 24) designed, the data is sent to a MySensors gateway.  On the recieving end could be another Arduino Nano, a computer running Ubuntu with a Home Assistant running in a Virtual Box on that computer.
 
+25 February 2024: Version 22 has been running for a week now without problems.
+Circuit was modified by inserting a diode between the power supply 5V and the Arduino 5V to prevent current coming from the Arduino going into the power supply.  This happens when the Arduino is powered by the USB connection while programming.  In this situation, without this diode, the power supply will become non-functional.
+
 ## Here are some serious safety considerations
 Doesn’t matter how cheap it is if it’s not safe.
 
